@@ -1566,7 +1566,7 @@ ul li .h1-infos {
   position: absolute;
   width: 105px;
   height: 33px;
-  border-radius: 15px;
+  border-radius: 5px;
   top: -45px;
   display: grid;
   place-items: center;
