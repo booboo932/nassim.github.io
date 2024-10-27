@@ -1,2 +1,0 @@
-# nassim.github.io
-portfolio
