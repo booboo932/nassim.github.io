@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réalisation Professionnelle - Distribution et Configuration iPhone</title>
+    <link rel="stylesheet" href="iphone.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Distribution et Configuration d’iPhones pour les nouveaux arrivants - Guerbet</h1>
+    </header>
+    <main>
+        <!-- Bouton de retour aux réalisations -->
+<a href="/realisations.html" class="back-to-top" title="Retour aux réalisations">
+    <i class="fas fa-arrow-up"></i> Retour aux réalisations
+</a>
+
+        <section class="realisation">
+            <h2>Description</h2>
+            <p>Dans ce projet, j’ai pris en charge la distribution et la configuration d’iPhones pour les nouveaux arrivants chez Guerbet. Mon objectif était de faciliter la prise en main des appareils pour les utilisateurs tout en garantissant que les techniciens de proximité disposent d’une procédure claire. J’ai également organisé les rendez-vous de remise des iPhones via Calendly et communiqué toutes les informations nécessaires par email aux collaborateurs.</p>
+
+            <div class="info-section">
+                <div class="info-item">
+                    <i class="fas fa-user"></i>
+                    <p>1 personne </p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Durée : 1 mois</p>
+                </div>
+            </div>
+
+            <h2>Outils Utilisés</h2>
+            <div class="tool-gallery">
+                <div class="tool">
+                    <img src="Calendly.jpg" alt="Calendly pour gestion des rendez-vous" onclick="openPopup(this)">
+                    <p><strong>Calendly :</strong> J’ai utilisé cet outil pour organiser les rendez-vous de remise des iPhones, permettant ainsi aux nouveaux arrivants de réserver un créneau facilement.</p>
+                </div>
+                <div class="tool">
+                    <img src="mail.jpg" alt="Interface email de distribution" onclick="openPopup(this)">
+                    <p><strong>Email :</strong> J’ai envoyé un email de confirmation aux nouveaux arrivants avec tous les détails nécessaires pour la distribution de leur appareil.</p>
+                </div>
+               
+            </div>
+
+            <h2>Compétences</h2>
+            <ul>
+                <li>Organisation logistique pour la distribution d'appareils</li>
+                <li>Rédaction de procédures techniques pour dispositifs mobiles</li>
+                <li>Communication efficace avec les utilisateurs et techniciens</li>
+            </ul>
+
+            <h2>Documents </h2>
+            <p>J’ai rédigé une procédure complète de configuration de l’iPhone pour guider les techniciens et assurer une installation uniforme pour tous les utilisateurs. :</p>
+            <a href="/document/procedure iphone 1.pdf" download class="download-btn"><i class="fas fa-download"></i> Télécharger la procédure de configuration iPhone</a>
+        </section>
+    </main>
+
+    <!-- Popup container -->
+    <div id="popup" class="popup" onclick="closePopup()">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img" alt="Image en grand">
+    </div>
+
+   
+
+    <script>
+        // Function to open the popup with the clicked image
+        function openPopup(img) {
+            var popup = document.getElementById("popup");
+            var popupImg = document.getElementById("popup-img");
+            popup.style.display = "flex";
+            popupImg.src = img.src;
+        }
+
+        // Function to close the popup
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+</body>
+</html>
